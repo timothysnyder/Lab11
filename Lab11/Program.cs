@@ -129,17 +129,16 @@ namespace Lab11
 
             Console.WriteLine(message);
 
-            string googles = Console.ReadLine().ToLower();
+            string pick = Console.ReadLine().ToLower();
 
-            if (googles == "y")
+            if (pick == "y")
             {
                 return true;
             }
-            else if (googles == "n")
+            else if (pick == "n")
             {
+                Console.WriteLine("Thank You");
                 return false;
-
-                Console.WriteLine("thank you");
             }
             else
             {
